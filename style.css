@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/*Header*/
+header .logo img{
+    width: 200px;
+    height: auto;
+}
+.bottom-header{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(26, 12, 228);
+    background: #010596;
+    position: sticky;
+    text-decoration: none;
+    top: 0%;
+}
+nav a:hover{
+    background: #f00;
+}
+.bottom-header a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.other-features{
+    display: flex;
+}
+nav ul a{
+    color: white;
+}
+ nav ul{
+    list-style: none;
+    display: flex;
+    font-size: 22px;
+}
+.logo{
+    text-align: center;
+}
+.top-main p{
+    color: #00f;
+}
+.bottom-main p{
+    font-size: 50px;
+    text-align: center;
+    color: #010596;
+}
+.mid-main{
+    text-align: center;
+}
+.scroll-top{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  display: flex;
+  border-radius: 50%;
+}
+.scroll-top {
+    background: #3ed13e;
+    box-shadow: 0px 0px 5px 0px #000;
+}
+.top-footer .himal img{
+    width: 300px;
+    height: auto;
+    align-content: left;
+
+}
+.himal {
+    width: auto;
+    text-align: center;
+}
+.top-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2px;
+    gap: 20px;
+    background-color:lightseagreen;
+}
+.bottom-footer{
+    display: flex;
+    gap: 60%;
+    padding: 10px;
+    background-color: lightskyblue;
+   
+}
+.bottom-footer #bottom-1{
+    display: flex;
+    gap: 20px;
+  
+}
+bottom-2{
+    display: flex;
+}
+.bottom-footer a{
+    text-decoration: none;
+}
